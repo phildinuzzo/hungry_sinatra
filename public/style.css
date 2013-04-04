@@ -1,0 +1,25 @@
+
+
+body {
+  background-color: #B84B77;
+}
+
+.bigtext {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#buttons {
+  margin: 30px 20px 10px 20px;
+  text-align: center;
+}
+
+.button1 {
+  margin: 0 20px 0 0;
+  font-weight: bold;
+}
+
+.button2 {
+  font-weight: bold;
+}

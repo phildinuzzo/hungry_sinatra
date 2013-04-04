@@ -1,0 +1,24 @@
+
+
+<div class="bigtext">
+<h1>  <%= @result %>   </h1>
+</div>
+
+<% if @but1 && @but2 %>
+<div id="buttons">
+ <button class="btn btn-large button1" type="button">
+  <%= @but1 %>
+</button>
+ <button class="btn btn-large button2" type="button">
+  <%= @but2 %>
+</button>
+<% end %>
+</div>
+
+<% unless @but2 %>
+  <div id="buttons">
+ <button class="btn btn-large button1" type="button">
+  <%= @but1 %>
+</button>
+<% end %>
+</div>
